@@ -4,7 +4,7 @@ Push:
 branches:
 -main
 jobs:
-builf:
+build:
 run-on: ubuntu-latest
 steps:
 -name:Checkout Repository
