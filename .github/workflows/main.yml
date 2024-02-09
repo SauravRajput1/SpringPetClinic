@@ -21,10 +21,10 @@ run: mvn compile
 -name: Test
 run: mvn test
 -name: Package
- run: mvn package
- -name: integration-test
- run: mvn integration-test
- -name: verify
- run: mvn verify
- -name: install
- run: mvn install
+run: mvn package
+-name: integration-test
+run: mvn integration-test
+-name: verify
+run: mvn verify
+-name: install
+run: mvn install
