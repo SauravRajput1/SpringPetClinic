@@ -2,7 +2,7 @@ name: Build Workflow
 on:
 Push:
 branches:
--master
+-main
 jobs:
 builf:
 run-on: ubuntu-latest
