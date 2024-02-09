@@ -27,4 +27,4 @@ run: mvn test
  -name: verify
  run: mvn verify
  -name: install
- run: mvn  install
+ run: mvn install
