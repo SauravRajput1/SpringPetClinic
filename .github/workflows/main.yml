@@ -1,8 +1,6 @@
 name: Build Workflow
 on:
 Push:
-branches:
--main
 jobs:
 build:
 run-on: ubuntu-latest
